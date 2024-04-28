@@ -32,6 +32,12 @@ button:hover {
 
 }
 
+
+/* Raise Character above textbox*/
+[data-character] {
+transform: translateY(-200px);
+}
+
 /* General Styling for Menu Screens */
 [data-screen] {
 
@@ -98,6 +104,9 @@ button:hover {
 /* Text Box styling */
 [data-component="text-box"] {
 
+background-color: rgba(157, 36, 36, 0.548);
+bottom: 40px;
+font-size: 30px;
 }
 
 /* Character Name Style */
