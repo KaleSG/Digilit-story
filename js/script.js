@@ -308,37 +308,48 @@ monogatari.script ({
 	],
 	
 	'HomeChoiceExplore': [ //Chapter 4 selection
+		'show character sai pointing with left',
 		'sai I\'ll go see what other damage they did',
 		'Yoona and Toona didn\'t seem to hear you',
 		'show scene attic with fadeIn', //scene change
 		'You walk around to see if you could find anything anyway',
 		'There\'s absolutely nothing to be found',
+		'show character sai neutral with left',
 		'sai Dang, these raiders took everything.',
+		'show character sai pensive with left',
 		'sai Assuming there was much to take to begin with.',
 		
 		'show scene bathroom with fadeIn', //scene change
 		'You walk into the bathroom',
+		'show character sai neutral with left',
 		'sai Not even any hygiene products',
+		'show character sai pensive with left',
 		'sai No toilet paper',
 		'You notice that even the toilet seat is gone',
 		'It\'s just the hinges now.',
 		'show scene kitchen fadeIn',
 		'You walk into the kitchen',
+		'show character sai pointing with left',
 		'sai Is there no food anywhere?',
 		'sai No fridge.',
+		'show character sai neutral with left',
 		'sai No utensils?',
 		'sai it\'s just empty..',
+		
 		
 		'You hear footsteps behind you',
 		'You turn around.',
 		
 		'yoona WHAT ARE YOU DOING?',
+		'show character sai pensive with left',
 		'sai I-I was just-',
 		'yoona this is all YOUR fault.',
 		'yoona You and your stupid analyst ideals.',
+		'show character sai neutral with left',
 		'yoona Because of YOUR people, our people have to steal and scrape to survive.',
 		'yoona All because you analysts\' can\'t seem to share a damn cure you can EASILY make.',
 		'yoona GET OUT!!',
+		'show character sai pensive with left',
 		'sai Yoona please- I didn\'t-',
 		'She won\'t listen.',
 		'GET OUT!',
