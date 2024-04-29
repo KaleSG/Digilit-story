@@ -30,5 +30,12 @@ monogatari.assets ('images', {
 
 // Define the backgrounds for each scene.
 monogatari.assets ('scenes', {
-    'Elgin': 'Elgin.png'
+   'crackhouse': 'crackhouse.png',
+   'tristanwork': 'tristanwork.png',
+   'livingroom': 'yoonalivingroom.png',
+   'yoonahome': 'yoonatoonahome.png',
+   'attic': 'yoona-attic.png',
+   'bathroom': 'bathroom.png',
+   'kitchen': 'kitchen.png'
+   
 });

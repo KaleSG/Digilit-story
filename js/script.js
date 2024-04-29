@@ -100,75 +100,132 @@ monogatari.script ({
 	],
 	
 	'Chapter4': [
+	
+		'show scene crackhouse with fadeIn duration 2s',  //scene change
+		
+		'show character sai surprised with left',
 		'sai What the hell.',
+		'show character sai pointing with left',
 		'sai Did you see that?',
+		'show character sai surprised with left',
 		'sai He just ate it!',
+		'show character sai surprised with left',
 		'sai its like all of his problems just vanished ????',
 		
+		'hide character sai',
 		'yoona Don\'t worry about that.',
 		'yoona Jace is just selling Herobrin.',
 		
+		'show character sai pensive with left',
 		'sai Herobrin??',
 		
+		'hide character sai',
+		'show character toona neutral with left',
 		'toona Yeah',
+		'show character toona neutral with left',
 		'toona It\'s just a drug that makes people happy.',
+		'show character toona talking with left',
 		'toona It makes sense if you think about it.',
+		'show character toona talking with left',
 		'toona Money and food is scarce down here.',
+		'show character toona nervous with left',
 		'toona The spread of disease down here is probably even worse.',
+		'show character toona nervous with left',
 		'toona People use it as an escape...',
+		'show character toona nervous with left',
 		'toona or just to feel something...',
 		
+		'hide character toona',
+		'show character sai neutral with left',
 		'sai But shouldn\'t someone atleast try to do something about it?',
 		
+		'show character toona neutral with right',
 		'toona Like what Sai?',
+		'toona What could we possible do?',
 		
-		'You walking until you reach a shelter.',
+		'show scene tristanwork with fadeIn duration 3s', //scene change
 		
+		'You keep walking until you reach a shelter in a small alleyway',
+		
+		'show character toona neutral with left',
 		'yoona Tristane!',
 		
 		'You see a man in the distance look up at you both.',
 		
+		'show character tristane smile with right',
 		'tristane Yoona! Toona! What\'s good?!',
 		'toona Nothing. Have you received any medicine lately?',
-		'tristane No… I’m so sorry.', 
+		'show character tristane neutral with right',
+		'tristane No… I’m so sorry.',
+		'show character tristane smile with right',
 		'tristane I\'m having Lorci reach out to the analysts.', 
+		'show character tristane neutral with right',
 		'tristane But for now all we can do is wait',
+		'hide character toona',
+		
 		'yoona Great. . .',
-		'tristane Who’s your friend here?',
-		'sai I’m Sai. Who are you? You sure don’t look like you belong in Elgin',
+		'show character tristane laughing with right',
+		'tristane Who\'s your friend here?',
+		
+		
+		
+		'show character sai neutral with left',
+		'sai I’m Sai. Who are you? You sure don’t look like you belong to Elgin',
+		'show character tristane neutral with right',
 		'tristane I\'m Tristane.',
+		'show character tristane smile with right',
 		'tristane You’re right, Elgin is quite foreign to me.',
 		'tristane I\'m actually from New JiJago',
+		'show character tristane neutral with right',
 		'tristane Hyde Park specifically.',
 		
+		'show character sai pensive with left',
 		'sai Why come all the way here?',
+		'show character tristane smile with right',
 		'tristane I’m a diplomat and I came to Elgin to help the explorers here',
 		'tristane I hope to eventually get them out of this mess one day.',
+		'show character tristane neutral with right',
 		'tristane But, for now it\'s riddled with Synaptic Disconnect Disorder.',
-		'tristane The analysts\' price the treatments are always so high.',
-		'tristane  It’s almost hopeless. But, I believe that with effort we can help build Elgin to something beautiful',
+		'tristane The analysts always price the treatments so high.',
+		'tristane  It’s almost hopeless. But, I believe that with effort we can help build Elgin into something beautiful',
 		
+		'hide character sai',
+		'show character toona neutral with left',
 		'toona Thanks Tristane.',
+		'show character toona talking with left',
 		'toona We should get going guys.',
+		'show character tristane smile with right',
 		'tristane Alright,',
 		'tristane I hope i\'ll see you guys soon.',
+		'show character tristane walking with right',
 		'tristane Take care!',
 		
+		'show scene yoonahome with fadeIn duration 3s',
 		'You, Yoona, and Toona keep on walking until you reach their house.',
+		
+		
 		'It looks like it\'s completely in shambles.',
 		'Someone raided the house.',
 		
 		'yoona WHAT!!?',
+		'show character toona talking with left',
 		'toona NO!',
+		'show character toona nervous with left',
 		'toona MAMA!',
 		'toona PAPA!',
 		
+		
+		'show scene livingroom with fadeIn duration 2s',
 		'You all run into the house.',
+		
+		
 		'The house is practically empty.',
 		'You find Yoona and Toona\'s parents sitting on a blanket in a disheveled living room.',
 		
+		'show character toona nervous with left',
 		'toona Mama!',
 		'toona Papa!',
+		'show character toona talking with left',
 		'toona Are you alright?',
 		
 		{'Choice': {
@@ -231,15 +288,19 @@ monogatari.script ({
 	'HomeChoiceExplore': [ //Chapter 4 selection
 		'sai I\'ll go see what other damage they did',
 		'Yoona and Toona didn\'t seem to hear you',
+		'show scene attic with fadeIn', //scene change
 		'You walk around to see if you could find anything anyway',
 		'There\'s absolutely nothing to be found',
 		'sai Dang, these raiders took everything.',
 		'sai Assuming there was much to take to begin with.',
+		
+		'show scene bathroom with fadeIn', //scene change
 		'You walk into the bathroom',
 		'sai Not even any hygiene products',
 		'sai No toilet paper',
 		'You notice that even the toilet seat is gone',
 		'It\'s just the hinges now.',
+		'show scene kitchen fadeIn',
 		'You walk into the kitchen',
 		'sai Is there no food anywhere?',
 		'sai No fridge.',
