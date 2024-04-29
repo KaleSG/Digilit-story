@@ -98,7 +98,9 @@ transform:
 
 /* Choice Buttons style */
 [data-component="choice-container"] button {
-
+	background-color: #917c4e88;
+	
+	
 }
 
 /* Choice Button Style on Hover */
