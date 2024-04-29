@@ -227,6 +227,7 @@ monogatari.script ({
 		'toona Papa!',
 		'show character toona talking with left',
 		'toona Are you alright?',
+		'hide character toona',
 		
 		{'Choice': {
 			'Dialog': 'What will you do?',
@@ -245,30 +246,48 @@ monogatari.script ({
 	],
 
 	'HomeChoiceHelp': [ //Chapter 4 selection
+		'show character sai pointing with left',
 		'sai Sir! Sir! are you alrght?',
+		'show character sai neutral with left',
 		'sai Can you hear me?',
 		'Yoona runs off. And you\'re not quite sure where.',
 		'sai Why aren\'t they answering us?',
+		'show character toona talking with right',
 		'toona They have synaptic disconnect.',
+		'show character toona nervous with right',
 		'toona The disease that plagues practically all of us explorers.',
+		'show character sai neutral with left',
 		'sai Well, do you have medicine?',
+		'show character toona neutral with right',
 		'toona What do you think?!',
+		'show character toona nervous with right',
 		'toona Analyst....',
+		'show character sai pensive with left',
 		'sai Uhh, im guessing no then.',
 		
+		'hide character sai',
+		
+		'show character toona neutral with left',
 		'Yoona runs back into the room.',
 		'yoona Everything of value is gone.',
+		'show character toona shocked with left',
 		'toona WHAT!?!',
 		'yoona All of our money.',
 		'yoona All of our food.',
-		'toona WHAT!',
+		'toona WHAT!!!!',
 		'yoona Anything that could be sold.',
 		'yoona it\'s all gone. . .',
+		'show character toona nervous with left',
 		'toona . . .',
 		'toona . . .',
 		'toona Sai.',
+		
+		'show character sai neutral with right',
+		
 		'sai ???',
+		'show character toona talking with left',
 		'toona Get out.',
+		'show character sai pointing with right',
 		'sai What?',
 		'sai Why?',
 		'sai How is this my faul-',
@@ -277,9 +296,12 @@ monogatari.script ({
 		'yoona Our lives are in ruin because of YOU.',
 		'yoona GET OUT!!!',
 		
+		'show character sai neutral with right',
 		'sai Okay! Okay, I\'ll leave.',
 		
-		'you walk out of the house'
+		'you walk out of the house.',
+		
+		'show scene yoonahome with fadeIn duration 5s'
 		
 		
 		
@@ -321,6 +343,7 @@ monogatari.script ({
 		'She won\'t listen.',
 		'GET OUT!',
 		'she physically grabs your and throws you out of the house.',
+		'show scene yoonahome with fadeIn duration 5s',
 		'she would slam the door behind her,',
 		'but the raiders took that too...',
 		'nice going with that one.'
