@@ -60,6 +60,11 @@ monogatari.characters ({
 			walking: 'walking-neutral-tristane.png'
 		}
 	},
+	'yoona': {
+		name: 'Yoona',
+		color: '#f5da7a'
+	
+	},
 	'toona': {
 		name: 'Toona',
 		color: '#d9d3ce',
@@ -90,13 +95,53 @@ monogatari.characters ({
 monogatari.script ({
 	// The game starts here.
 	'Start': [
-		'show scene Elgin',
-		'show character ami neutral with left',
-		'ami hey i\'m ami and im going to destroy your will to live!',
-		'show character ami walking with left',
-		'ami Enjoy your life loser!'
+	
 		
 	],
+	
+	'Chapter4': [
+		'sai What the hell.',
+		'sai Did you see that?',
+		'sai He just ate it!',
+		'sai its like all of his problems just vanished ????',
+		
+		'yoona Don\'t worry about that.',
+		'yoona Jace is just selling Herobrin.',
+		
+		'sai Herobrin??',
+		
+		'toona Yeah',
+		'toona It\'s just a drug that makes people happy.',
+		'toona It make\'s sense if you think about it.',
+		'toona Money and food is scarce down here.',
+		'toona The spread of disease down here is probably even worse.',
+		'toona People use it as an escape...',
+		'toona or just to feel something...',
+		
+		'sai But shouldn\'t someone atleast try to do something about it?',
+		
+		'toona Like what Sai?',
+		
+		'You and Toona keep walking until you reach a shelter.',
+		
+		'yoona Tristane!',
+		
+		'You see a man in the distance look up at you both.',
+		
+		'tristane Yoona! Toona! What\'s good?!',
+		'toona Nothing. Have you received any medicine lately?',
+		'tristane No… I’m so sorry.', 
+		'tristane I am having Lorci reach out to the analysts.', 
+		'tristane But for now all we can do is wait',
+		'yoona Great. . .',
+		'tristane Who’s your friend here?'
+		
+		
+		
+		
+		
+	
+	]
 
 	
 });
