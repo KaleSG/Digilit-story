@@ -363,7 +363,7 @@ monogatari.script ({
 		'she would slam the door behind her,',
 		'but the raiders took that too...',
 		'nice going with that one.',
-		'jump bonus'
+		
 		
 		
 	],
