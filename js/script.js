@@ -49,6 +49,16 @@ monogatari.characters ({
 			pointing: 'talking-sai.png'
 		}
 	},
+	
+	'mom': {
+		name: 'Mom',
+		color: '#145bcc',
+		directory: 'mom',
+		sprites: {
+			neutral: 'neutral.png'
+		}
+	},
+	
 	'tristane': {
 		name: 'Tristane',
 		color: '#a15208',
@@ -62,7 +72,24 @@ monogatari.characters ({
 	},
 	'yoona': {
 		name: 'Yoona',
-		color: '#f5da7a'
+		color: '#f5da7a',
+		directory: 'yoona',
+		sprites: {
+			confused: 'confused.png',
+			mad: 'mad.png',
+			neutral: 'neutral.png',
+			walking: 'walking.png'
+		},
+	'jace': {
+		name: 'Jace',
+		color: '#f5b342',
+		directory: 'jace',
+		sprites: {
+			neutral: 'neutral.png',
+			smile: 'smile.png',
+			smirk: 'smirk.png'
+		}
+	}
 	
 	},
 	'toona': {
@@ -117,8 +144,10 @@ monogatari.script ({
 		'sai its like all of his problems just vanished ????',
 		
 		'hide character sai',
+		'show character yoona walking with left',
 		'yoona Don\'t worry about that.',
 		'yoona Jace is just selling Herobrin.',
+		'hide character yoona',
 		
 		'show character sai pensive with left',
 		'sai Herobrin??',
@@ -151,13 +180,15 @@ monogatari.script ({
 		
 		'You keep walking until you reach a shelter in a small alleyway',
 		
-		'show character toona neutral with left',
+		'show character yoona neutral with left',
 		'yoona Tristane!',
 		
 		'You see a man in the distance look up at you both.',
 		
 		'show character tristane smile with right',
 		'tristane Yoona! Toona! What\'s good?!',
+		'hide character yoona',
+		'show character toona neutral with left',
 		'toona Nothing. Have you received any medicine lately?',
 		'show character tristane neutral with right',
 		'tristane No… I’m so sorry.',
@@ -167,11 +198,12 @@ monogatari.script ({
 		'tristane But for now all we can do is wait',
 		'hide character toona',
 		
+		'show character yoona neutral with left',
 		'yoona Great. . .',
 		'show character tristane laughing with right',
 		'tristane Who\'s your friend here?',
 		
-		
+		'hide character yoona',
 		
 		'show character sai neutral with left',
 		'sai I’m Sai. Who are you? You sure don’t look like you belong to Elgin',
@@ -211,10 +243,11 @@ monogatari.script ({
 		'It looks like it\'s completely in shambles.',
 		'Someone raided the house.',
 		
+		'show character yoona mad with left',
 		'yoona WHAT!!?',
-		'show character toona talking with left',
+		'show character toona talking with right',
 		'toona NO!',
-		'show character toona nervous with left',
+		'show character toona nervous with right',
 		'toona MAMA!',
 		'toona PAPA!',
 		
@@ -273,6 +306,8 @@ monogatari.script ({
 		
 		'show character toona neutral with left',
 		'Yoona runs back into the room.',
+		
+		'show character yoona mad with right',
 		'yoona Everything of value is gone.',
 		'show character toona shocked with left',
 		'toona WHAT!?!',
@@ -295,6 +330,8 @@ monogatari.script ({
 		'sai What?',
 		'sai Why?',
 		'sai How is this my faul-',
+		'hide character toona',
+		'show character yoona mad with left',
 		'yoona Because of YOUR people, our people have to steal and scrape to survive',
 		'yoona All because you analysts can\'t just share a cure that you can EASILY make.',
 		'yoona Our lives are in ruin because of YOU.',
@@ -344,6 +381,8 @@ monogatari.script ({
 		
 		'You hear footsteps behind you',
 		'You turn around.',
+		
+		'show character yoona mad with right',
 		
 		'yoona WHAT ARE YOU DOING?',
 		'show character sai pensive with left',
