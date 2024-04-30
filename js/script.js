@@ -284,7 +284,7 @@ monogatari.script ({
 	],
 	
 	'Ch4ThrownOut': [ //Chapter 4 selection for second choice occurence
-	
+		'show scene yoonahome'
 	],
 	
 	
