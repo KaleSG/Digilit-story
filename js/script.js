@@ -89,6 +89,10 @@ monogatari.characters ({
 			talking: 'talking-ami.png'
 		}
 	
+	},
+	'retty': {
+		name: "Retty",
+		color: '#cf34eb'
 	}
 });
 
@@ -301,7 +305,8 @@ monogatari.script ({
 		
 		'you walk out of the house.',
 		
-		'show scene yoonahome with fadeIn duration 5s'
+		'show scene yoonahome with fadeIn duration 5s',
+		'jump bonus'
 		
 		
 		
@@ -357,12 +362,34 @@ monogatari.script ({
 		'show scene yoonahome with fadeIn duration 5s',
 		'she would slam the door behind her,',
 		'but the raiders took that too...',
-		'nice going with that one.'
+		'nice going with that one.',
+		'jump bonus'
 		
 		
+	],
+	
+	'bonus': [
+		'sai Hey Retty!',
+		'retty RAHHHHHHHH!',
+		'retty Ugh what do you want Sai?',
+		'retty I\'m in the middle of a game.',
+		'sai STILL playing Zelda Breath of the Wild?',
+		'retty Yeah. These darn guardians keep zapping me.',
+		'sai Dude, just hold ZL,',
+		'sai and after it glows blue and releases it\'s charge,',
+		'sai that\'s when you should press A to parry.',
+		'retty WOW! You\'re so smart!',
+		'sai I know right!',
+		'sai Didn’t I just give you A- worthy content?',
+		'retty huh?',
+		'retty You know, entertainment and work worthy of an A?',
+		'retty Uhh..',
+		'retty Sure.',
+		
+		'THE END'
+		
+	
 	]
-	
-	
 	
 	
 	
