@@ -321,6 +321,7 @@ monogatari.script ({
 		'toona . . .',
 		'toona Sai.',
 		
+		'hide character yoona',
 		'show character sai neutral with right',
 		
 		'sai ???',
@@ -343,7 +344,7 @@ monogatari.script ({
 		'you walk out of the house.',
 		
 		'show scene yoonahome with fadeIn duration 5s',
-		'jump bonus'
+		
 		
 		
 		
