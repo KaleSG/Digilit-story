@@ -1,5 +1,5 @@
 monogatari.script ({
-    'chapter6': [
+    'Chapter6': [
         'show scene circuit with fadeIn duration 3s',
         'show character sai neutral with left',
         'You hear your dad screaming from the house',

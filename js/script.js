@@ -2,7 +2,7 @@ monogatari.script ({
 	// The game starts here.
 	'Start': [
 		
-		'jump Chapter5'
+		'jump Chapter4'
 	],
 	
 	
