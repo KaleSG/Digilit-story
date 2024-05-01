@@ -372,7 +372,7 @@ monogatari.script ({
 		{'Choice': {
 		
 			'idk': {
-				'Text': 'Return to Chapter One',
+				'Text': 'Return to beginning',
 				'Do': 'jump Start'
 			},
 			

@@ -191,7 +191,203 @@ monogatari.script ({
         
     
     ],
-    'escort': [],
-    'goaway':[]
+    'escort': [
+        'show scene crackhouse',
+        'show character sai neutral with left',
+        'show character tristane neutral with right',
+        'tristane Kid. I think it\'s time to go.',
+        'tristane Sir, we don\'t want any trouble at the moment',
+        'hide character sai',
+        'show character chase smirk with left',
+        'chase I would hope not.',
+        'show character chase neutral with left',
+        'chase For your sake.',
+        
+        'show scene black with fadeIn duration 3s',
+        'Tristane escorts you back to the edge of Silicon Circuit',
+        'show scene circuit with fadeIn duration 3s',
+        'show character tristane neutral with right',
+        'tristane Well,',
+        'show character tristane walking with right',
+        'tristane I\'ll see you around kid.',
+        'tristane Stay outta trouble.',
+        'show character sai surprised with left',
+        'sai WAIT-',
+        'show character tristane neutral with right',
+        'tristane ?',
+        'show character sai pensive with left',
+        'sai I want you to meet my family!',
+        'show character tristane smile with right',
+        'tristane Well, I\'m not legally allowed to cross the border into Silicon Circuit without a permit.',
+        'show character sai neutral with left',
+        'sai Wait what?',
+        'show character tristane neutral with right',
+        'tristane Dang man.',
+        'tristane You really do live under a rock, huh.',
+        'show character sai pensive with left',
+        'sai Sorry Tristane...',
+        'sai I\'ll see you soon..',
+        
+        'show scene black with fadeIn duration 3s',
+        'You walk home, wondering if you can really do anything to change all of this.',
+        'show scene home with fadeIn duration 3s',
+        'show character mom mad with left',
+        'mom SAI!',
+        'mom WHERE THE HELL HAVE YOU BEEN!?',
+        'mom YOU STUPID IDIOT.',
+        'show character dad point with right',
+        'dad I\'ve had the entire city looking for you.',
+        'dad Where have you been?',
+        'show character mom neutral with left',
+        'show character dad point with right',
+        'mom You stupid little boy, I was so scared.',
+        'hide character dad',
+        'show character sai pensive with right',
+        'sai Sorry sorry.. I\'m fine.',
+        'hide character mom',
+        'show character dad point with left',
+        'dad Well, where the heck have you been?',
+        'sai I-',
+        'sai I got caught in Explorer land',
+        'show character dad grin with left',
+        'dad What the blazes were you doing there?',
+        
+        {'Choice': {
+			'Dialog': 'What will you do?',
+			'thugitout': {
+				'Text': 'Thug it out and ignore the question',
+				'Do': 'jump Ch5ThugItOut'
+			},
+			'truth': {
+				'Text': 'Tell them about everything you saw',
+				'Do': 'jump Ch5TheTruth'
+			}
+		
+		}}
+        
+    ],
+    'goaway':[
+        'show scene crackhouse',
+        'show character sai pensive with left',
+        'sai Go away Tristane,',
+        'sai I\'ll deal with this myself.',
+        'show character tristane neutral with right',
+        'tristane . . .',
+        'tristane Okay.',
+        'Tristane seems to have trusted you in handling this yourself and leaves.',
+        'hide character tristane',
+        
+        'show character sai neutral with left',
+        'show character chase smirk with right',
+        'sai Chase, this isn\'t okay and you know it.',
+        'show character sai pensive with left',
+        'sai I know my family is probably what caused all of this',
+        'show character sai neutral with left',
+        'sai But I didn\'t know!',
+        
+        'show character chase smile with right',
+        'chase You know what.',
+        'sai ??',
+        'chase I\'m tired of this.',
+        
+        'show scene #fff',
+        
+        '. . . ',
+        '. . .',
+        'Before you even knew it,',
+        'Chase shot you in the head.',
+        'so much for trying to do the right thing huh?',
+        {'Choice': {
+    		
+            'idk': {
+                'Text': 'Return to beginning',
+                'Do': 'jump Start'
+            },
+            
+        
+        }}
+        
+        
+    ],
+    
+    'Ch5TheTruth':
+    [
+        'sai Everyone in Elgin',
+        'sai they\'re all struggling so much.',
+        'sai There’s crime and poverty everywhere.',
+        'sai People are scraping to survive!',
+        '. . .',
+        'dad Okay?',
+        'mom . . .',
+        'sai Aren’t we rich? We have to help them out.',
+        'sai In the elder days, we had something to help people.',
+        'sai Like, I don’t know Will Good?',
+        'dad Sai, look, we have to tell you something.',
+        'mom Honey, we wanted to tell him when he turned 21.',
+        'dad eh 17 is old enough',
+        'dad Sai, we create and sell the cure to Synaptic Disconnect Disorder.',
+        'dad We are only one of two families who can create this drug.',
+        'sai WHAT!?',
+        'dad Yes. So, because there is so little stock, we price it as high as we can.',
+        'dad So does our competitor.',
+        'dad This way, we generate the most revenue than anyone in the entire world.',
+        'mom Because of this, the Explorers cannot afford the cure.',
+        'mom This has led to many of their people to go into poverty and has caused their government to completely crumble.',
+        'sai WHAT. That’s awful.',
+        'sai We have so much of the cure, let’s just give some of it to them.',
+        'sai The diplomats can then go help them rebuild.',
+        'mom Are you not listening to us?',
+        'mom Their own misfortune brought this upon them.',
+        'mom This is THEIR fault.',
+        'mom The weak deserve nothing more than to kneel before the strong.',
+        'sai You’re both insane.',
+        'sai How could you let this happen?!',
+        'dad Shut up Sai. I’m sick of this conversation.',
+        'dad Go to your room.',
+        
+        'show scene black with fadeIn duration 3s',
+        'You go back to you\'re room.',
+        
+        'You realize that they aren\'t going to change no matter what you say.',
+        'If you really want things to change, you have to leave this comfortable lifestyle.',
+        'What will you do?',
+        
+        {'Choice': {
+			'Dialog': 'You need to escape, how will you do it?',
+			'optionOne': {
+				'Text': 'Sneak out the back door',
+				'Do': 'jump chapter6'
+				
+			},
+			'optionTwo': {
+				'Text': 'Sneak out your window',
+				'Do': 'jump chapter6'
+			}
+		
+		}}
+        
+        
+        
+        
+        
+    ],
+    'Ch5ThugItOut':
+    [
+        'show character sai neutral with right',
+        'sai You know what, I\'m going to bed.',
+        'sai Good night.',
+        'show scene black with fadeIn duration 3s',
+        
+        'Instead of facing your problems head on, you ignore them and completely forget about everything you saw today.',
+        {'Choice': {
+		
+			'idk': {
+				'Text': 'Return to beginning',
+				'Do': 'jump Start'
+			},
+			
+		
+		}}
+    ]
 
 }) //put script stuff here

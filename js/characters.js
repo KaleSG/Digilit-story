@@ -21,6 +21,15 @@ monogatari.characters ({
 	        sad: 'sad.png'
 	    }
 	},
+	'dad': {
+		name: 'Dad',
+		color: '#145bcc',
+		directory: 'dad',
+		sprites: {
+			grin: 'grin.png',
+			point: 'point.png'
+		}
+	},
 	
 	'mom': {
 		name: 'Mom',

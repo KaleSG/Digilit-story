@@ -36,6 +36,10 @@ monogatari.assets ('scenes', {
    'yoonahome': 'yoonatoonahome.png',
    'attic': 'yoona-attic.png',
    'bathroom': 'bathroom.png',
-   'kitchen': 'kitchen.png'
+   'kitchen': 'kitchen.png',
+   'black': 'black.png',
+   'circuit': 'siliconCircuit.png',
+   'home': 'home.png',
+   'jijago': 'jijago.png'
    
 });
