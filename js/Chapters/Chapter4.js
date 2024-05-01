@@ -299,7 +299,7 @@ monogatari.script ({
 			},
 			'selldrugs': {
 				'Text': 'Find the drug dealer you saw earlier and try and make a quick buck.',
-				'Do': 'jump Ch4HomeChoiceHelp'
+				'Do': 'jump selldrugs'
 			}
 		
 		}}
@@ -373,7 +373,7 @@ monogatari.script ({
 		
 			'idk': {
 				'Text': 'Return to Chapter One',
-				'Do': 'jump Chapter1'
+				'Do': 'jump Start'
 			},
 			
 		
