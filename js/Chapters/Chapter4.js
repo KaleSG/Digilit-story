@@ -214,6 +214,7 @@ monogatari.script ({
 		
 		'show scene yoonahome with fadeIn duration 5s',
 		
+		'jump Ch4ThrownOut'
 		
 		
 		
@@ -273,12 +274,113 @@ monogatari.script ({
 		'but the raiders took that too...',
 		'nice going with that one.',
 		
+		'jump Ch4ThrownOut'
+		
 		
 		
 	],
 	
 	'Ch4ThrownOut': [ //Chapter 4 selection for second choice occurence
-		'show scene yoonahome'
+		'show scene yoonahome',
+		
+		'Well what now?',
+		'Yoona and Toona hate your guts',
+		'Now the question is,',
+		'Do you really care?',
+		
+		'show character sai with left',
+		
+		
+		{'Choice': {
+			'Dialog': 'What will you do?',
+			'help': {
+				'Text': 'Find Tristan and help the explorers out of this mess.',
+				'Do': 'jump Chapter5'
+			},
+			'selldrugs': {
+				'Text': 'Find the drug dealer you saw earlier and try and make a quick buck.',
+				'Do': 'jump Ch4HomeChoiceHelp'
+			}
+		
+		}}
+		
 	],
+	
+	'selldrugs': [
+		'You go off to search for the drug dealer you saw selling herobin earlier.',
+		'show scene crackhouse with fadeIn duration 3s',
+        'show character ikaika neutral with left',
+        'ikaika MAN this stuff is nice..',
+        'hide character ikaika',
+        'show character sai surprised with left',
+        
+        'sai HEY!',
+        'hide character sai',
+        'show character ikaika neutral with left',
+        'ikaika Huh-',
+        'show character ikaika talking with left',
+        'ikaika BRO you told me this was a secret spot!!',
+        'show character jace neutral with right',
+        'jace Ugh, get outta here!',
+        'show character jace smirk with right',
+        'jace I\'ll cover for you.',
+        
+        'hide character ikaika',
+        
+        'Ikaika runs off in the distance',
+        
+        'show character jace surprised with left',
+        'sai Hey, hey you!!',
+        'show character jace neutral with right',
+        'jace Huh? What',
+        'show character sai pensive with left',
+        'sai What are you doing here?',
+        'show character jace puff with right',
+        'jace What are YOU doing here Sai?',
+        'show character sai surprised with left',
+        'sai Huh!? How do you know me?',
+        'show character jace smirk with right',
+        'jace Dude. It\'s me. Chase!',
+        'show character sai pointing with left',
+        'sai CHASE? What are you doing here?',
+        'show character jace neutral right',
+        'chase I\'m on an important mission.',
+        'chase What\'s it to you?',
+        'sai What? What do you mean.',
+        'sai You\'re an ANALYST.',
+        'chase H-Huh?! SAI BE QUIET.',
+        
+        'hide character sai',
+        
+        'show character ikaika neutral with left',
+        'ikaika Excuse me? You\'re an analyst?',
+        'ikaika You lied to me!?',
+        
+		'show character jace smirk right',
+        'chase Huh? What?',
+        'chase No! He\'s lying!',
+        'ikaika Lookie here you analyst piece of-',
+        'hide character ikaika',
+        'show character sai neutral with left',
+        'sai Uhh, well I am out of here!',
+        
+		'show scene #000 with fadeIn duration 3s',
+		
+		'As you tried to run away,',
+		'you slipped on a bannana peel and died.',
+		
+		{'Choice': {
+		
+			'idk': {
+				'Text': 'Return to Chapter One',
+				'Do': 'jump Chapter1'
+			},
+			
+		
+		}}
+        
+        
+	
+	]
 
 })

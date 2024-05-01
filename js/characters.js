@@ -53,6 +53,7 @@ monogatari.characters ({
 			neutral: 'neutral.png',
 			walking: 'walking.png'
 		},
+	},
 	'jace': {
 		name: 'Jace',
 		color: '#f5b342',
@@ -63,9 +64,21 @@ monogatari.characters ({
 			smirk: 'smirk.png',
 			puff: 'puff.png'
 		}
+	},
+	
+	'chase': {
+		name: 'Chase',
+		color: '#f5b342',
+		directory: 'jace',
+		sprites: {
+			neutral: 'neutral.png',
+			smile: 'smile.png',
+			smirk: 'smirk.png',
+			puff: 'puff.png'
+		}
 	}
 	
-	},
+	,
 	'toona': {
 		name: 'Toona',
 		color: '#d9d3ce',
@@ -94,5 +107,14 @@ monogatari.characters ({
 	'retty': {
 		name: "Retty",
 		color: '#cf34eb'
+	},
+	'ikaika': {
+		name: "Ikaika",
+		color: '#32a852',
+		directory: 'ikaika',
+		sprites: {
+			neutral: 'neutral.png',
+			talking: 'talking.png'
+		}
 	}
 });
