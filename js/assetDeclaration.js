@@ -40,6 +40,8 @@ monogatari.assets ('scenes', {
    'black': 'black.png',
    'circuit': 'siliconCircuit.png',
    'home': 'home.png',
-   'jijago': 'jijago.png'
+   'jijago': 'jijago.png',
+   'diplomatland': 'diplomatland.png',
+   'gaming': 'gaming.png'
    
 });

@@ -115,7 +115,13 @@ monogatari.characters ({
 	},
 	'retty': {
 		name: "Retty",
-		color: '#cf34eb'
+		color: '#cf34eb',
+		directory:'retty',
+		sprites: {
+			neutral: 'neutral.png',
+			surprised: 'surprise.png',
+			stumble: 'stumble.png'
+		}
 	},
 	'ikaika': {
 		name: "Ikaika",
