@@ -15,11 +15,11 @@ monogatari.script ({
 		'hide character sai',
 		'show character yoona walking with left',
 		'yoona Don\'t worry about that.',
-		'yoona Jace is just selling Herobrin.',
+		'yoona Jace is just selling Herobin.',
 		'hide character yoona',
 		
 		'show character sai pensive with left',
-		'sai Herobrin??',
+		'sai Herobin??',
 		
 		'hide character sai',
 		'show character toona neutral with left',

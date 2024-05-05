@@ -43,7 +43,7 @@ monogatari.script ({
         'show character sai neutral with left',
         'sai Umm, well,',
         'sai Toona and Yoona mentioned a drug.',
-        'sai Herobrin I think?',
+        'sai Herobin I think?',
         'sai Anyway, It seems bad and seems to make people go absolutely bonkers.',
         'show character tristane walking with right',
         'tristane That is very true.',
@@ -56,7 +56,7 @@ monogatari.script ({
         'sai . . .',
         'sai . . .',
         'tristane Alas,',
-        'tristane what would you like to do about the Herobrin?',
+        'tristane what would you like to do about the Herobin?',
         
         
         'sai Follow me!',
