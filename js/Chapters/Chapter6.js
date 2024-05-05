@@ -158,6 +158,8 @@ monogatari.script ({
 
     ],
     'protagonist': [
+        'tristane Good choice.',
+        'show scene black with fadeIn duration 3s',
         'You become a political leader.',
         'You Prioritize being kind and generous, aiming to understand yourself and others.',
         'You are vocal about your values, including authenticity and altruism.',
@@ -176,6 +178,8 @@ monogatari.script ({
 		}}
     ],
     'campaigner': [
+        'tristane Good choice.',
+        'show scene black with fadeIn duration 3s',
         'You become a caretaker and have profound depths fueled by your intense desire for meaningful, emotional connections with others.',
         'You are truly devoted to nurturing relationships with your understanding of the world at large.',
         'You become a therapist and educator, helping to guide Explorers to a better way of life.',

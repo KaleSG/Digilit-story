@@ -373,12 +373,12 @@ monogatari.script ({
 			'Dialog': 'You need to escape, how will you do it?',
 			'optionOne': {
 				'Text': 'Sneak out the back door',
-				'Do': 'jump chapter6'
+				'Do': 'jump Chapter6'
 				
 			},
 			'optionTwo': {
 				'Text': 'Sneak out your window',
-				'Do': 'jump chapter6'
+				'Do': 'jump Chapter6'
 			}
 		
 		}}
