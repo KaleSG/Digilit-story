@@ -41,7 +41,7 @@ monogatari.assets ('scenes', {
    'circuit': 'siliconCircuit.png',
    'home': 'home.png',
    'jijago': 'jijago.png',
-   'diplomatland': 'diplomatland.png',
+   'diplomatland': 'diplomatland1.png',
    'gaming': 'gaming.png',
    'newColumbia': 'newColumbia.png',
    'ravine': 'ravine.png',
