@@ -1,5 +1,5 @@
 monogatari.script ({
-    'Chapter3': [
+    'Chapter3help': [
         
         'You walk back when you suddenly feel rumbling underneath you',
         
@@ -16,29 +16,30 @@ monogatari.script ({
         'sai Shoot, I fell too deep into the ground, I can\'t get out',
         'sai Hello?!!!! Is anyone there??',
     
-        'jump Toona'    
+        'jump help'    
     ],
     
-    'Toona': [
+    'Chapter3leave': [
         
+        'You walk back when you suddenly feel rumbling underneath you',
         
-        {'Choice': {
-			'Dialog': 'What will you choose?',
-			'1': {
-				'Text': 'Toona and Yoona help you out',
-				'Do': 'jump help'
-			},
-			'2': {
-				'Text': 'Toona and Yoona don\'t help you out',
-				'Do': 'jump leave'
-			}
-		
-		}},
-		
-	
+        'show scene black with fadeIn',
+        'show character sai pointing with left',
+        'sai Wait what was that?!?!?',
+        'sai Is this an earthquake?!!',
+        'sai AHHHHHHH!!!!!',
         
+        'show scene ravine with fadeIn',
+
+        'show character sai pointing with left',
+        'sai UGH..Ah..',
+        'sai Shoot, I fell too deep into the ground, I can\'t get out',
+        'sai Hello?!!!! Is anyone there??',
     
+        'jump leave'    
     ],
+    
+   
     'help': [
        'show scene ravine with fadeIn ',
        'show character toona shocked with right',
@@ -89,7 +90,15 @@ monogatari.script ({
 
        
         
-        'jump Chapter1'
+        {'Choice': {
+		
+			'idk': {
+				'Text': 'Return to beginning',
+				'Do': 'jump Start'
+			},
+			
+		
+		}}
     ]
     
 

@@ -12,7 +12,14 @@ monogatari.script ({
         'Judging (J) or Perceiving (P)',
         '4 letters, 16 different combinations, and one life . . .',
         'There are 4 districts that the 16 personalities are divided into: ',
-        'Analysis, Sentinel, Diplomat, and Explorer . . .',
+        'show scene circuit',
+        'Analysts.',
+        'show scene newColumbia',
+        'Sentinels',
+        'show scene jijago',
+        'Diplomats', 
+        'show scene tristanwork',
+        'and Explorers . . .',
       
         
         'These districts serve as the heartbeats of civilization, ',
@@ -37,7 +44,7 @@ monogatari.script ({
         'sai Just out exploring Dad. There\'s more to life than work.',
         'show character mom mad with right',
         'mom EXPLORING?!?! Are you out of your mind?! Acting like one of those mindless fools?!',
-        'You\'re a disgrace!! Get out of my sight!!!',
+        'dad You\'re a disgrace!! Get out of my sight!!!',
         'sai Fine, I\'ll leave.',
 
         'show scene black with fadeIn',
@@ -52,9 +59,9 @@ monogatari.script ({
         'show character toona shocked with right',
         'toona Yoona, look!! I think I found a wandering Analysis kid!',
         'show character yoona mad with right',
-        'yoona, Toona, I told you not to get close to those people.',
+        'yoona Toona, I told you not to get close to those people.',
         'toona Hey, why do you get to tell me what to do?',
-        'yoona, I\'m literally 16 seconds older than you, it\'s my right as the first born.',
+        'yoona I\'m literally 16 seconds older than you, it\'s my right as the first born.',
         'Toona ignores Yoona',
         'show character toona talking with right',
         'toona Hey! Are you lost? You look lost! We can help you!.',
@@ -70,11 +77,11 @@ monogatari.script ({
     {'Choice': {
         'Dialog': 'What will you choose?',
         'helps': {
-            'Text': 'Yoona and Toona help you',
+            'Text': 'Let Yoona and Toona help you',
             'Do': 'jump helps'
         },
         'leaves': {
-            'Text': 'Yoona and Toona leave you alone',
+            'Text': 'Dont let Yoona and Toona help you',
             'Do': 'jump leaves'
         }
     
@@ -109,7 +116,7 @@ monogatari.script ({
         'sai Sigh . . . alright, thanks for the help.',
         'show scene black with fadeIn',
 
-        'jump Chapter3'
+        'jump Chapter3help'
 
 
     ],
@@ -125,7 +132,7 @@ monogatari.script ({
         'toona Whatever, let\'s go.',
         'show scene black with fadeIn',
 
-        'jump Chapter3'
+        'jump Chapter3leave'
 
 
     ],
