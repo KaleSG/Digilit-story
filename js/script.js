@@ -28,7 +28,7 @@ monogatari.script ({
 		'show character retty surprised with right',
 		'retty WOW! You\'re so smart!',
 		'sai I know right!',
-		'sai Didn’t I just give you A- worthy content?',
+		'sai Didn’t I just give you A worthy content?',
 		'show character retty neutral with right',
 		'retty huh?',
 		'retty You know, entertainment and work worthy of an A?',
